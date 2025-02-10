@@ -35,6 +35,21 @@
         border-radius: 5px;
         font-size: 14px;
     }
+
+                
+    input[type="submit"] {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+            }
+
+    input[type="submit"]:hover {
+        background-color: darkblue;
+            }
+        
         </style>
     </head>
     <body>
@@ -59,13 +74,13 @@
 
             <h3>Address</h3>
             <label for="street">Street:</label>
-            <input type="text" id="street"><br>
+            <input type="text" id="street" name="street"><br>
             <label for="city">City:</label>
-            <input type="text" id="city"><br>
+            <input type="text" id="city" name="city"><br>
             <label for="state">State:</label>
-            <input type="text" id="state" maxlength="2"><br>
+            <input type="text" id="state" name="state" maxlength="2"><br>
             <label for="zipcode">Zipcode:</label>
-            <input type="text" id="zipcode" maxlength="5"><br>
+            <input type="text" id="zipcode" name="zipcode" maxlength="5"><br>
 
             <br><br>
             <input type="submit">
